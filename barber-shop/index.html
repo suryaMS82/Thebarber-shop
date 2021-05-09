@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barber shop</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/IMAGES/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="background">
+        <img src="/IMAGES/logo.jpg" class="logo">
+        <div class="image-text">
+            <h1>Hair Studio</h1>
+            <p>Style your hair is style your life</p>
+            <div class="image-botton">
+                <a href="find out"><span></span> Find Out</a>
+                <a href="read more"><span></span> Read more</a>
+            </div>
+        </div>
+        </section>
+    <div id="sidenav">
+        <nav>
+            <ul>
+                <li><a href="home">HOME</a></li>
+                <li><a href="features">FEATURES</a></li>
+                <li><a href="services">SERVICES</a></li>
+                <li><a href="testimonials">TESTIMONIALS</a></li>
+                <li><a href="meet us">MEET US</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menubtn">
+        <img src="https://img.icons8.com/nolan/64/menu.png" id="menu"/>
+    </div>
+    <section id="title-text">
+        <div class="FEATURES-text">
+        <p>Features</p>
+        <h1>why choose us</h1>
+            
+        </div>
+        <div class="featurestxt">
+            <div class="stafftxt">
+                <h2>Experienced Staff</h2>
+            <div class="feature-desc">
+
+                <div class="feature-icon">
+                    <i class="fa fa-shield"></i>
+
+                </div>
+
+                    
+
+                    <div class="feature-tx">
+                        <p>donec eget ultricies sapi.sed porttitor, mautis afre lob</p>
+
+                    </div>
+                </div>
+                <h2>free online booking</h2>
+                <div class="feature-desc">
+
+                    <div class="feature-icon">
+                        <i class="fa fa-check-square-o"></i>
+    
+                    </div>
+    
+                        
+    
+                        <div class="feature-tx">
+                            <p>You cane book in advance through our website,with absolute free of cost</p>
+    
+                        </div>
+                    </div>
+                    <h2>affordable price</h2>
+                    <div class="feature-desc">
+
+                        <div class="feature-icon">
+                            <i class="fa fa-inr"></i>
+        
+                        </div>
+        
+                            
+        
+                            <div class="feature-tx">
+                                <p>We maintain affordable prices on all our products.</p>
+        
+                            </div>
+                        </div>
+            </div>
+            <div class="featureimg">
+                <img src="/IMAGES/barber-features.jpeg" alt="features">
+            </div>
+        </div>
+        
+    </section>
+    <!--services creations-->
+    <section id="servece">
+        <div class="FEATURES-text">
+            <p>SERVICES</p>
+            <h1>We provide better</h1></div>
+            <div class="service-text">
+                <h2>HAIR STYLING .</h2>
+                
+                <p>---Hair  cutting and arrangement of hair to 
+                    create an attractive presentation.</p>
+                
+            </div>
+            <div class="service-text">
+                <h2>beard triming.</h2>
+                
+                <p> ---The proper way to trim a beard, you'll be aiming for an even 
+                    length all over, and a proper beard neckline, cheekline, 
+                    mustache and lipline.</p>
+                
+            </div>
+            <div class="service-text">
+                <h2>HAIR cutting.</h2>
+                
+                <p>---Haircutting  - is the process of cutting,
+                     tapering, texturizing and thinning using any hair
+                     cutting tools in order to create a shape</p>
+                
+            </div>
+            <div class="service-text">
+                <h2>dry shapoo.</h2>
+                <p>---Dry shampoo is a type of hair 
+                    product that claims to reduce 
+                    oil, grease, and dirt in your hair.</p>
+                
+            </div>
+                
+            
+    </section>
+
+    <script>
+    
+        var menubtn=document.getElementById("menubtn")
+        var sidenav=document.getElementById("sidenav")
+        var menu=document.getElementById("menu")
+        sidenav.style.right="-230px";
+        menubtn.onclick=function(){
+            if(sidenav.style.right=="-230px"){
+                sidenav.style.right="0";
+                menu.src="https://img.icons8.com/metro/26/ffffff/close-window.png" ;
+            }
+            else{
+                sidenav.style.right="-230px";
+                menu.src="https://img.icons8.com/nolan/64/menu.png";
+            }
+            }  
+
+
+        
+    </script>
+    
+ 
+    
+</body>
+</html>
