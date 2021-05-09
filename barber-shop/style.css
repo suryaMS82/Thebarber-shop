@@ -3,7 +3,7 @@
     padding: 0;
 }
 #background{
-    background-image: linear-gradient(rgba(0,0,0,0.4),#69c2e6),url(/IMAGES/pexels-photo-BARBERbackground.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,0.4),#69c2e6),url(/pexels-photo-BARBERbackground.jpeg);
     background-size: cover;
     background-position: center;
     height: 100vh;
